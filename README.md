@@ -3,8 +3,8 @@ docker-compose 创建个人博客
 
 ### 目录结构：
 
-   wordpress_blog
-      docker-compose.yml
+    wordpress_blog
+        docker-compose.yml
 
 ### docker-compose.yml中
     
@@ -42,38 +42,36 @@ docker-compose 创建个人博客
 + 创建wordpress_blog过程
 　　
 
-　　等待docker-compose运行，最终会下载mysql镜像和wordpress镜像，并部署服务
++ 等待docker-compose运行，最终会下载mysql镜像和wordpress镜像，并部署服务
 
 　　
 
-　　使用docker ps查看运行进程，会发现开启了两个进程
++ 使用docker ps查看运行进程，会发现开启了两个进程
 
-　　去浏览器访问,注意ip和port
-
-　　
-
-　　
-
-　　访问后台：　　
-
-　　http://192.168.99.100:8000/admin/
-
-　　注册，填写账号和密码，即可进入后台页面，wordpress后台展示为以下：
++ 去浏览器访问,注意ip和port
 
 　　
 
 　　
 
-　　到了这一步，可以修改设置，发表博客，可以更改dashbord,仪表盘，设置主题，更改语言为简体中文，更改时区。后台创建你的博客，前台访问博客内容。
++ 访问后台：　　
 
-　　在后台中设置你的博客和写博客，
-
-　　前台中查看发表的博客：通过访问http://192.168.99.100:8000/
+http://192.168.99.100:8000/admin/
+注册，填写账号和密码，即可进入后台页面，wordpress后台展示为以下：
 
 　　
 
-　　此处为本人已经设置ok和写入的博客。
+　　
 
-　　至此，就随意在你的wordpress博客中畅游吧，欢迎点赞和关注
+到了这一步，可以修改设置，发表博客，可以更改dashbord,仪表盘，设置主题，更改语言为简体中文，更改时区。后台创建你的博客，前台访问博客内容。
+
+在后台中设置你的博客和写博客，
+
+前台中查看发表的博客：通过访问http://192.168.99.100:8000/
+
+　　
+此处为本人已经设置ok和写入的博客。
+
+至此，就随意在你的wordpress博客中畅游吧，欢迎点赞和关注
 
 　　
