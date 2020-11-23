@@ -55,7 +55,8 @@ docker-compose 创建个人博客
 ![网络访问](https://github.com/wzl1368611/wordpress_blog/blob/main/imgs/%E7%BD%91%E7%BB%9C%E8%AE%BF%E9%97%AE_03.PNG?raw=true)
 　　
 
-+ 访问后台：http://192.168.99.100:8000/admin/ 注册，填写账号和密码，即可进入后台页面，wordpress后台展示为以下：
++ 访问后台：http://192.168.99.100:8000/admin/ 
++ 注册，填写账号和密码，即可进入后台页面，wordpress后台展示为以下：
 
 　　
 ![后台端](https://github.com/wzl1368611/wordpress_blog/blob/main/imgs/%E5%90%8E%E5%8F%B0%E7%AB%AF.PNG?raw=true)
