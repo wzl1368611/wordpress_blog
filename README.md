@@ -7,7 +7,6 @@ docker-compose 创建个人博客
       docker-compose.yml
 
 ### docker-compose.yml中
-
    version: '3.3'
 
    services:
@@ -37,9 +36,9 @@ docker-compose 创建个人博客
    volumes:
        db_data: {}
        
-创建过程
-安装docker，自行百度安装，本处不在赘述
-创建wordpress_blog过程
+### 创建过程
++ 安装docker，自行百度安装，本处不在赘述
++ 创建wordpress_blog过程
 　　
 
 　　等待docker-compose运行，最终会下载mysql镜像和wordpress镜像，并部署服务
