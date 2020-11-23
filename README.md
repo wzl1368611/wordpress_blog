@@ -69,7 +69,7 @@ docker-compose 创建个人博客
 
 ![博客展示](https://github.com/wzl1368611/wordpress_blog/blob/main/imgs/%E5%8D%9A%E5%AE%A202.PNG?raw=true)
 
-+ 此处为本人已经设置ok和写入的博客。
++ 此处为本人已经设置ok和写好的一篇博客。
 
 + 至此，就随意在你的wordpress博客中畅游吧，欢迎点赞和关注
 
