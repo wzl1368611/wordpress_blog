@@ -7,19 +7,20 @@ docker-compose 创建个人博客
       docker-compose.yml
 
 ### docker-compose.yml中
-   version: '3.3'
-
-   services:
-      db:
-        image: mysql:5.7
-        volumes:
-          - db_data:/var/lib/mysql
-        restart: always
-        environment:
-          MYSQL_ROOT_PASSWORD: somewordpress
-          MYSQL_DATABASE: wordpress
-          MYSQL_USER: wordpress
-          MYSQL_PASSWORD: wordpress
+    
+    version: '3.3'
+    
+    services:
+       db:
+         image: mysql:5.7
+         volumes:
+           - db_data:/var/lib/mysql
+         restart: always
+         environment:
+           MYSQL_ROOT_PASSWORD: somewordpress
+           MYSQL_DATABASE: wordpress
+           MYSQL_USER: wordpress
+           MYSQL_PASSWORD: wordpress
 
       wordpress:
         depends_on:
@@ -33,8 +34,8 @@ docker-compose 创建个人博客
           WORDPRESS_DB_USER: wordpress
           WORDPRESS_DB_PASSWORD: wordpress
           WORDPRESS_DB_NAME: wordpress
-   volumes:
-       db_data: {}
+    volumes:
+        db_data: {}
        
 ### 创建过程
 + 安装docker，自行百度安装，本处不在赘述
